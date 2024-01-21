@@ -1,0 +1,85 @@
+.headerList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.headerList h5 {
+    color: var(--blue);
+    font-size: 0.90rem;
+}
+
+.headerList .tasksCreated {
+    background-color: var(--gray-500);
+    color: var(--white);
+    padding: 0.3rem 0.5rem;
+    border-radius: 50%;
+    font-size: 0.70rem;
+}
+
+.headerList p {
+    font-size: 0.90rem;
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.headerList span {
+    background-color: var(--gray-500);
+    color: var(--white);
+    padding: 0.3rem 0.5rem;
+    border-radius: 50%;
+    font-size: 0.70rem;
+}
+
+.listTaskContent {
+    margin-top: 2rem;
+}
+
+.taskField {
+    width: 85%;
+    background-color: var(--gray-500);
+    outline: none;
+    resize: none;
+    border: none;
+    height: 3rem;
+    padding: 0.85rem 1rem;
+    border-radius: 8px;
+    display: flex;
+    color: var(--white);
+}
+
+.addTaskButton {
+    background-color: var(--blue-dark);
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.85rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.fieldArea {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.noTasksSection {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noTasksSection img {
+    width: 8%;
+    margin-bottom: 1rem;
+}
+
+.noTasksSection p {
+    font-size: 1rem;
+
+}

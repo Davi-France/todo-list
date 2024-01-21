@@ -1,0 +1,50 @@
+.taskContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--gray-400);
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    border: 1px solid var(--gray-500);
+}
+
+.infoTask {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.taskContent p {
+    color: var(--white);
+}
+
+.deleteTask {
+    background: none;
+    width: 1.75rem;
+    height: 1.65rem;
+    border: none;
+    color: var(--gray-300);
+    cursor: pointer;
+}
+
+.completeTaskButton {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--blue);
+    border-radius: 12px;
+    cursor: pointer;
+    background: none;
+}
+
+.completedTask .completeTaskButton {
+    background-color: var(--purple);
+    border: var(--purple);
+}
+
+.completedTask p {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
