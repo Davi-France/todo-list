@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# Projeto Todo-List: Gerenciador de Tarefas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto Todo-List foi desenvolvido como parte de um desafio de aprendizado utilizando React com TypeScript. Esta aplicação oferece um gerenciador de tarefas simples e eficaz, incorporando diversos conceitos fundamentais do React.
 
-Currently, two official plugins are available:
+Durante o desenvolvimento deste projeto, foram explorados e aplicados os seguintes conceitos do React:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Estados**: Utilizamos estados para controlar o comportamento dinâmico da aplicação, permitindo que ela responda às interações do usuário de forma adequada e eficiente.
 
-## Expanding the ESLint configuration
+- **Imutabilidade dos Estados**: Adotamos o conceito de imutabilidade dos estados para garantir a integridade dos dados e evitar efeitos colaterais indesejados durante a manipulação das informações da aplicação.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Listas e Chaves no React com TypeScript**: Utilizamos listas e chaves no React com TypeScript para renderizar dinamicamente elementos de interface com base em conjuntos de dados variáveis, como a lista de tarefas.
 
-- Configure the top-level `parserOptions` property like this:
+- **Propriedades**: Aprendemos a utilizar propriedades para passar informações entre componentes, possibilitando a criação de uma hierarquia de componentes reutilizáveis e modularizados.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Componetização**: Praticamos a técnica de componetização para dividir a interface da aplicação em componentes independentes e reutilizáveis, facilitando o desenvolvimento, a manutenção e a escalabilidade do projeto.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+No projeto Todo-List, implementamos as seguintes funcionalidades:
+
+- Adicionar uma nova tarefa à lista de tarefas.
+- Marcar e desmarcar uma tarefa como concluída.
+- Remover uma tarefa da listagem.
+- Mostrar o progresso de conclusão das tarefas através de uma barra de progresso.
+
+Este projeto representa uma etapa importante no aprendizado e na aplicação prática dos conceitos fundamentais do React com TypeScript, oferecendo uma base sólida para o desenvolvimento de aplicações web modernas e escaláveis. Além disso, proporciona uma experiência valiosa no desenvolvimento de interfaces de usuário interativas e dinâmicas.
